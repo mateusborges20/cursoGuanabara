@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>introdução ao dom</title>
+
+  <style>
+    body {
+      background: #caf;
+      color: #fff;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+  </style>
+</head>
+
+<body>
+  <h1 id="titulo">Manipulação com o dom</h1>
+  <script>
+    var corpo = document.querySelector('body')
+    corpo.style.background = '#111'
+
+    var ti = document.getElementById('titulo') 
+    ti.style.color = '#ffa'
+    ti.style.background = '#caf'
+    ti.style.padding = '10px 20px'
+    ti.style.border = '1px solid '
+    ti.style.border = 'none'
+  </script>
+</body>
+
+</html>
